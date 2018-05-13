@@ -8,7 +8,7 @@ $(document).ready(function () {
 	$(window).scroll(function() {    
 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 200) {
+		if (scroll >= 400) {
 			$("#header").css('background-color', 'rgba(0,0,0,0.7)');
 		} else {
 			$("#header").css('background-color', 'rgba(0,0,0,0)');
