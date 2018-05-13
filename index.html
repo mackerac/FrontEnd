@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -24,9 +25,9 @@
 					<a href="index.html" class="logo" > <img src="">LOGO</a>
 					<nav id="nav">
 						<a href="index.html">Home</a>
-						<a href="#">How it works</a>
-						<a href="#">FAQs</a>
-						<a href="#">Contact us</a>
+						<a href="#one">How it works</a>
+						<a href="#two">FAQs</a>
+						<a href="#Contact">Contact us</a>
 					</nav>
 				</div>
 			</header>
@@ -47,7 +48,8 @@
 			<section id="one">
 					<div class="inner">
 					<header>
-						<h2>How it works</h2>
+						<h2 id="heading">How it works</h2>
+						<span class="underline"></span>
 					</header>
 					
 					<div class="row">
@@ -88,6 +90,8 @@
 				<div class="container">
 					<div>
 						<h2 class="header text-center">Frequently Asked Questions</h2>
+						<span class="underline"></span>
+
 					</div>
 				<div class="row">	
 					<article class="col-md-6 col-lg-6">
@@ -145,6 +149,7 @@
 			</section>
 
 		<!-- Footer -->
+		<div id="Contact">
 
 		<div class="search-text"> 
 				<div class="container">
@@ -152,9 +157,11 @@
 				  
 					<div class="form">
 						<h4>SIGN UP TO OUR NEWSLETTER</h4>
+						<span class="underline"></span>
+
 						 <form id="search-form" class="form-search form-horizontal">
 							 <input type="text" class="input-search input-height" placeholder="Name">
-							 <input type="email" class="input-search input-height" placeholder="Email Addresse">
+							 <input type="email" class="input-search input-height" placeholder="Email Address">
 							 <textarea name="message"  class="input-search " cols="10" rows="8"></textarea>
 									<button type="submit" class="btn-search">SUBMIT</button>
 						</form>
@@ -162,8 +169,8 @@
 				 
 				   </div>         
 				</div>     
-			 </div>
-			 
+		</div>
+		</div>
 			 <footer>
 			  <div class="container">
 				<div class="row">
