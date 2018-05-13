@@ -4177,5 +4177,11 @@ button {
 
 }
 
+#three .container {
+	font-size: 1.8rem !important;
+}
 
+#three .actions {
+	font-size: 1rem;
+}
 
