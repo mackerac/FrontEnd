@@ -4064,9 +4064,11 @@
 }
 
 
-#heading {
-	margin-bottom: -15px;
+#one .underline {
+	margin-top: 25px;
+    margin-bottom: 50px;
 }
+
 
 #two .header {
 	margin-bottom: 8rem;
