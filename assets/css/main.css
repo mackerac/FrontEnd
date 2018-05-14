@@ -14,7 +14,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		/* font: inherit; */
 		vertical-align: baseline;
 		font-family: 'Roboto', sans-serif !important;
 	}
@@ -3097,9 +3097,8 @@
 
 	body {
 		position: relative;
-		padding-top: 5em;
+		padding-top: 0px;
 		margin-top: 1.5em;
-		border-top: 5px black dotted;
 	}
 
 	#header {
@@ -3369,7 +3368,7 @@
 	#banner {
 		background-color: #e5474b;
 		color: #f2a3a5;
-		margin-top: -90px;
+		/* margin-top: -90px; */
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
 		background-image: url("../../images/banner.jpg");
@@ -4209,8 +4208,9 @@ button {
 	 }
 }
 
-#one .row .fa {
+#one .row .fa-envelope {
 	color: orange;
+	font-size: 1.4rem;
 }
 
 
@@ -4218,82 +4218,46 @@ button {
 
 /* social media */
 
-.container {
+#contact .container {
 	margin: 60px auto 0px auto;
 	text-align: center;
   }
-  .container h1 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #212121;
-	letter-spacing: 3px;
-  }
-  .container h1 span {
-	display: inline-block;
-  }
-  /* .container h1 span:before, .container h1 span:after {
-	content: "";
-	display: block;
-	width: 34px;
-	height: 2px;
-	background-color: #212121;
-	margin: 0px 0px 0px 2px;
-  } */
+
+
   
-  /* .effect {
-	width: 100%;
-	padding: 50px 0px 70px 0px;
-	background-color: #212121;
-  } */
-  .effect h2 {
-	color: #fff;
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	font-size: 25px;
-	letter-spacing: 3px;
-  }
-  /* .effect:nth-child(2) {
-	margin-top: 50px;
-  } */
-  /* .effect:nth-child(2n+1) {
-	background-color: #fff;
-  } */
-  /* .effect:nth-child(2n+1) h2 {
-	color: #212121;
-  } */
-  .effect .buttons {
-	margin-top: 50px;
+ 
+ 
+	.effect .buttons {
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
+	font-size: 1.5rem;
   }
-  .effect a:last-child {
-	margin-right: 0px;
-  }
+
   
   /*common link styles !!!YOU NEED THEM*/
-  .effect {
-	/*display: flex; !!!uncomment this line !!!*/
-  }
+  
   .effect a {
 	text-decoration: none !important;
-	/* color: #fff; */
+	color: #fff;
 	width: 60px;
 	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 10px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 	font-size: 25px;
 	overflow: hidden;
 	position: relative;
-  }
-  .effect a i {
+  } 
+   .effect a i {
 	position: relative;
 	z-index: 3;
   }
+
+
+
   .effect a.fb {
 	background-color: #3b5998;
   }
