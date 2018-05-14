@@ -4191,15 +4191,7 @@ button {
 	text-align: center;
 }
 
-#two .underline {
-	margin-left: 43%;
-}
 
-@media screen and (max-width:767px) {
-	#two .underline {
-		margin-left: 30%;
-	}
-}
 
 @media screen and (max-width:767px) {
 .container .row .logo {
