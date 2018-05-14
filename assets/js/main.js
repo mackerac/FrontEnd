@@ -14,6 +14,11 @@ $(document).ready(function () {
 			$("#header").css('background-color', 'rgba(0,0,0,0)');
 		}
 	});
+    // Social plus button function
+    $('.plus-button').click(function(){
+        $(this).toggleClass('open');
+        $('.social-button').toggleClass('active');
+    });
 });
 
 (function($) {
