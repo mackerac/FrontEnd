@@ -3912,10 +3912,14 @@
 			}
 			
 			.address .fa{
-				color: #da3e44;
+                color: #da3e44 !important;
 				margin-right: 10px;
 				font-size:18px;
 			}
+
+.fa-envelope , .fa-phone , .fa-map-marker{
+    color: #da3e44;
+}
 
 #search-form {
 	padding-left: 20%;
@@ -4204,6 +4208,16 @@ button {
   
 
 
+.pullBottom{
+    margin-bottom: -20px;
+}
 
+.pullBottom1{
+    margin-bottom: -15px;
+}
+
+.pullBottom2{
+    margin-bottom: -10px;
+}
 
 
